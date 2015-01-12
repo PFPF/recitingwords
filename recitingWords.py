@@ -117,8 +117,7 @@ class WordsRecitingFrame(wx.Frame):
 		
 		self.background2 = wx.Image("Background2.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
 		self.backgroundBitmap2 = wx.StaticBitmap(self.panel, wx.ID_ANY, self.background2, pos=(0, 0))
-		
-		self.resetBool = False
+
 		self.know = wx.Button(self.panel, label = "Know (K)", pos = (275,250))
 		self.dontknow = wx.Button(self.panel, label = "I'm NOOB (B)", pos = (425,250))
 		self.correct = wx.Button(self.panel, label = "Correct (C)", pos = (275,250))
