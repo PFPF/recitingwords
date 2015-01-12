@@ -1,4 +1,4 @@
-abase v. To lower in position, estimation, or the like; degrade. 
+﻿abase v. To lower in position, estimation, or the like; degrade. 
 abbess n. The lady superior of a nunnery. 
 abbey n. The group of buildings which collectively form the dwelling-place of a society of monks or nuns. 
 abbot n. The superior of a community of monks. 
@@ -4699,7 +4699,7 @@ translate v. To give the sense or equivalent of in another language or dialect.
 translator n. An interpreter. 
 translucence n. The property or state of allowing the passage of light. 
 translucent adj. Allowing the passage of light. 
-transmissible adj. That may e sent through or across. 
+transmissible adj. That may be sent through or across. 
 transmission n. The act of sending through or across. 
 transmit v. To send trough or across. 
 transmute v. To change in nature, substance, or form. 
