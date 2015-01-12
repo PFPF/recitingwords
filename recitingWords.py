@@ -123,7 +123,7 @@ class WordsRecitingFrame(wx.Frame):
 		self.correct = wx.Button(self.panel, label = "Correct (C)", pos = (275,250))
 		self.incorrect = wx.Button(self.panel, label = "Incorrect (I)", pos = (425,250))
 		self.contributorBTN = wx.Button(self.panel, label = "Contributors", pos = (700,0))
-		self.next = wx.Button(self.panel, label = "Next (N)", pos = (275,250), size = (250,20))
+		self.next = wx.Button(self.panel, label = "Next (Any Key)", pos = (275,250), size = (250,20))
 	
 		self.word = wx.StaticText(self.panel, label = self.word_using, pos = (350,80))
 		self.mean = wx.StaticText(self.panel, label = mean_word[self.word_using], pos = (75,180))
@@ -158,7 +158,7 @@ class WordsRecitingFrame(wx.Frame):
 		self.background1 = wx.Image("Background1.jpg", wx.BITMAP_TYPE_ANY).ConvertToBitmap()
 		self.backgroundBitmap = wx.StaticBitmap(self.final, wx.ID_ANY, self.background1, pos=(0, 0))
 		
-		self.resume = wx.Button(self.final, label="Resume", pos=(700,0))
+		self.resume = wx.Button(self.final, label = "Resume", pos=(700,0))
 		self.resume.Bind(wx.EVT_BUTTON, self.OnResume)
 		
 		
