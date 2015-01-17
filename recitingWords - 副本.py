@@ -1,4 +1,4 @@
-﻿#! /usr/bin/env python
+#! /usr/bin/env python
 # This is a word-reciting software. It is very succinct.
 '''
 New Things:
@@ -127,7 +127,7 @@ class WordsRecitingFrame(wx.Frame):
 		self.next = wx.Button(self.panel, label = "Next (Any Key)", pos = (275,250), size = (250,20))
 	
 		self.word = wx.StaticText(self.panel, label = self.word_using, pos = (350,80))
-		self.mean = wx.StaticText(self.panel, label = repr(mean_word[self.word_using]), pos = (75,180))
+		self.mean = wx.StaticText(self.panel, label = mean_word[self.word_using].decode("GBK"), pos = (75,180))
 			
 		self.vocaFont = wx.Font(30, wx.ROMAN, wx.NORMAL, wx.NORMAL)
 		self.word.SetFont(self.vocaFont)
@@ -245,7 +245,7 @@ class WordsRecitingFrame(wx.Frame):
 		
 		self.word_using = max(time_word, key=time_word.get)
 		self.word.SetLabel(self.word_using)
-		self.mean.SetLabel(repr(mean_word[self.word_using]))
+		self.mean.SetLabel(mean_word[self.word_using].decode("GBK"))
 		
 
 		self.mean.Show(False)
